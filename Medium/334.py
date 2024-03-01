@@ -1,3 +1,4 @@
+import sys
 # 334. Increasing Triplet Subsequence
 class Solution(object):
     def increasingTriplet(self, nums):
