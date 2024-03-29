@@ -6,6 +6,9 @@
 #         self.val = val
 #         self.next = next
 
+from typing import Optional
+from typing import ListNode
+
 class Solution:
     def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         # Handle cases for a single node
