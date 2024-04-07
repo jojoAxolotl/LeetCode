@@ -3,8 +3,8 @@
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
-#         self.right = righ
-t
+#         self.right = right
+
 from typing import Optional
 from typing import TreeNode
 
