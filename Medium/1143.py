@@ -1,7 +1,7 @@
 # 1143. Longest Common Subsequence
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
-        # LCS is a standard question for DP
+        # lcs is a standard question for DP
         n=len(text1)
         m=len(text2)
         dp=[[-1]*m for _ in range(n)]
