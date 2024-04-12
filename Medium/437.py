@@ -17,7 +17,7 @@ class Solution:
         d = collections.Counter()
         d[0] = 1
         
-        # depth-first search 
+        # depth-first search # s 當前路徑的總和 
         def dfs(node: Optional[TreeNode], s: int) -> int:
             if not node: 
                 return 0
